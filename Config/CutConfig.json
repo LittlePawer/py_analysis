@@ -1,0 +1,27 @@
+{
+    "nEWcombi": {
+        "logic": "==",
+        "value": 2,
+        "type": "formula=NmuEWcombi+NelEWcombi"
+    },
+    "NlepBL": {
+        "logic": "==",
+        "value": 2,
+        "type": "flat"
+    },
+    "nSigLep": {
+        "logic": "==",
+        "value": 2,
+        "type": "flat"
+    },
+    "Zevent": {
+        "logic": "bool",
+        "value": "False",
+        "type": "flat"
+    },
+    "SigMet": {
+        "logic": ">",
+        "value": 0,
+        "type": "formula=met/math.sqrt(ht)"
+    }
+}

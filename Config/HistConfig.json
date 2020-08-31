@@ -1,0 +1,47 @@
+{
+    "NlepBL": {
+        "type": [
+            "TH1F",
+            "flat"
+        ],
+        "title": "",
+        "xtitle": "NLep_{baseline}",
+        "ytitle": "Events",
+        "x-axis": [
+            10,
+            0,
+            10
+        ],
+        "y-axis": []
+    },
+    "met": {
+        "type": [
+            "TH1F",
+            "flat"
+        ],
+        "title": "",
+        "xtitle": "E^{T}_{miss} GeV",
+        "ytitle": "Events",
+        "x-axis": [
+            40,
+            0,
+            2000
+        ],
+        "y-axis": []
+    },
+    "SigMet": {
+        "type": [
+            "TH1F",
+            "formula=met/math.sqrt(ht)"
+        ],
+        "title": "",
+        "xtitle": "Sig(E^{T}_{miss})",
+        "ytitle": "Events",
+        "x-axis": [
+            100,
+            0,
+            1000
+        ],
+        "y-axis": []
+    }
+}
